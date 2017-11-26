@@ -1,0 +1,48 @@
+Known event types	Event description	Total bytelength of all parameters	Parameters' types											
+0	Animation cancelling related event;Known Parameter #1 values:;;4: cancel by R1 or R2;7: lock rotation;8: activate i-frames;11: cancel by moving rigth stick;16: cancel by L1 attack or L2 parry;22: cancel by L1 or L2 blocking;26: cancel by rolling or backstepping;31: cancel by using consumable;32: cancel by two handing;87: allow animation cancel events (affected: 4,16,22,26,31,32)	12	int	float	int									
+1	Activate weapon hitbox/parry event;Known Parameter #1 values:;;0: activate weapon hitbox;64: throw parry;;Parameter #3 values:;Damage and knockback modifiers	12	int	int	int									
+2		16	int	int	int	int								
+5		8	int	int										
+8		48	int	int	int	int	int	int	int	int	int	int	int	int
+16		16	int	int	int	int								
+24		16	int	int	int	int								
+32		4	int											
+33		4	int											
+64		8	int	int										
+65		4	int											
+66		4	int											
+67		4	int											
+96		12	int	int	int									
+100		12	int	int	int									
+101		4	int											
+104		12	int	int	int									
+109		12	int	int	int									
+110		4	int											
+112	Particle event?;;3300,101: play particle effect (weapon hitting ground)	8	int	int										
+114		12	int	int	int									
+115		12	int	int	int									
+116		12	int	int	int									
+118	Swoosh effect?;Parameter #1:;;250: simple swoosh	12	int	short	short	short	short							
+120		24	int	int	int	int	int	int						
+121		8	int	int										
+128	Sound event;Known Parameter #1 values:;;1: "c" prefixed sound events (character);5: "s" prefixed sound events;6: "m" prefixed sound events (music);7: "v" prefixed sound events (voice);;Parameter #2 values: sound event suffixes found in fev files	8	int	int										
+130		16	int	int	int	int								
+144		12	int	int	int									
+145		4	int											
+193		8	int	int										
+224		4	int											
+225		4	int											
+226		4	int											
+228		12	int	int	int									
+229		4	int											
+231		4	int											
+232		4	int											
+233		8	int	int										
+236		12	int	int	int									
+300		16	int	int	int	int								
+301		4	int											
+302		4	int											
+304		8	int	int										
+307		12	int	int	int									
+308		4	int											
+401		4	int											
