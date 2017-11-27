@@ -3,7 +3,7 @@ Known event types	Event description	Total bytelength of all parameters	Parameter
 1	Activate weapon hitbox/parry event;Known Parameter #1 values:;;0: activate weapon hitbox;64: throw parry;;Parameter #3 values:;Damage and knockback modifiers	12	int	int	int									
 2		16	int	int	int	int								
 5		8	int	int										
-8		48	int	int	int	int	int	int	int	int	int	int	int	int
+8		48	float	float	float	float	float	float	float	float	float	float	float	float
 16		16	int	int	int	int								
 24		16	int	int	int	int								
 32		4	int											
