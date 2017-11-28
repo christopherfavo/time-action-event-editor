@@ -26,6 +26,7 @@ Known event types	Event description	Total bytelength of all parameters	Parameter
 120		24	int	int	int	int	int	int						
 121		8	int	int										
 128	Sound event;Known Parameter #1 values:;;1: "c" prefixed sound events (character);5: "s" prefixed sound events;6: "m" prefixed sound events (music);7: "v" prefixed sound events (voice);;Parameter #2 values: sound event suffixes found in fev files	8	int	int										
+129		16	int	int	int	int
 130		16	int	int	int	int								
 144		12	int	int	int									
 145		4	int											
@@ -39,7 +40,7 @@ Known event types	Event description	Total bytelength of all parameters	Parameter
 232		4	int											
 233		8	int	int										
 236		12	int	int	int									
-300		16	int	int	int	int								
+300		16	int	int	float	int								
 301		4	int											
 302		4	int											
 304		8	int	int										
